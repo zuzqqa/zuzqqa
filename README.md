@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @zuzqqa
+- 👀 I’m interested in computer science
+- 🌱 I’m currently learning c++, python, html, js, css
+- 📫 How to reach me ---> email: zuzannanowak04@wp.pl
