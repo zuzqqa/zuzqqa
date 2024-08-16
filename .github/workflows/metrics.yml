@@ -23,7 +23,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Generate Spotify Recently Listened Raport
+      # Generate Spotify Recently Listened Raport 1
       - name: Spotify - Recently listened
         uses: lowlighter/metrics@latest
         with:
