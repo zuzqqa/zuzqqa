@@ -1,19 +1,46 @@
 name: Metrics
+
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
+  schedule:
+    - cron: "0 0 * * *"
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
+  push:
+    branches:
+      - master
+      - main
+
 jobs:
-  github-metrics:
+  generate-metrics:
     runs-on: ubuntu-latest
     environment: 
       name: production
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Generate GitHub Recent Activity Report
+      - name: Generate Recent Activity Metrics
+        uses: lowlighter/metrics@latest
         with:
+          filename: metrics.plugin.activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+
+      # Generate WakaTime Report
+      - name: Generate WakaTime Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.wakatime.svg
+          token: ${{ secrets.WAKATIME_TOKEN }}
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
