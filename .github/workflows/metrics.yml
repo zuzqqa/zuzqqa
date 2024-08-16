@@ -3,7 +3,7 @@ name: Metrics
 on:
   # Schedule daily updates
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 * * * *"
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
@@ -34,7 +34,7 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_mode: recent
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
-          plugin_music_limit: 2
+          plugin_music_limit: 5
   
       # Generate GitHub Recent Activity Report
       - name: Generate Recent Activity Metrics
