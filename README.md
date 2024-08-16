@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <table>
   <tr>
     <td><img src="/github-metrics.svg" alt="Metrics" width="100%"></td>
