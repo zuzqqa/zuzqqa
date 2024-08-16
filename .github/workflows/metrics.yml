@@ -103,7 +103,7 @@ jobs:
 
 
       # # Generate WakaTime Report
-      # - name: Generate WakaTime Metrics
+      # - name: Generate WakaTime Metric
       #   uses: lowlighter/metrics@latest
       #   with:
       #     filename: metrics.plugin.wakatime.svg
