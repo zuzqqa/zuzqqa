@@ -23,12 +23,12 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#12 6 create pop ups and design the homepage</span>
+                                        <span class="issue">#14 JS changed to TSX, new hierarchy of the file structure</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">zuzqqa/codenames</span></div>
-                                    <div>43 files changed <span class="code">++18284 --19</span></div>
+                                    <div>70 files changed <span class="code">++4088 --0</span></div>
                                 </div>
                             </section>
                         </div>
@@ -40,12 +40,12 @@
                                     </svg>
                                     <div class="content">
                                         Opened
-                                        <span class="issue">#12 6 create pop ups and design the homepage</span>
+                                        <span class="issue">#14 JS changed to TSX, new hierarchy of the file structure</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">zuzqqa/codenames</span></div>
-                                    <div>43 files changed <span class="code">++18284 --19</span></div>
+                                    <div>70 files changed <span class="code">++4088 --0</span></div>
                                 </div>
                             </section>
                         </div>
@@ -57,12 +57,12 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#11 6 create pop ups and design the homepage</span>
+                                        <span class="issue">#13 Merge pull request #12 from zuzqqa/6-create-pop-ups-and-design-the-ho…</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">zuzqqa/codenames</span></div>
-                                    <div>19 files changed <span class="code">++269 --33</span></div>
+                                    <div>0 files changed <span class="code">++0 --0</span></div>
                                 </div>
                             </section>
                         </div>
@@ -74,12 +74,12 @@
                                     </svg>
                                     <div class="content">
                                         Opened
-                                        <span class="issue">#11 6 create pop ups and design the homepage</span>
+                                        <span class="issue">#13 Merge pull request #12 from zuzqqa/6-create-pop-ups-and-design-the-ho…</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">zuzqqa/codenames</span></div>
-                                    <div>19 files changed <span class="code">++269 --33</span></div>
+                                    <div>0 files changed <span class="code">++0 --0</span></div>
                                 </div>
                             </section>
                         </div>
@@ -91,12 +91,12 @@
                                     </svg>
                                     <div class="content">
                                         Merged
-                                        <span class="issue">#10 main page half-done</span>
+                                        <span class="issue">#12 6 create pop ups and design the homepage</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div> in <span class="repo">zuzqqa/codenames</span></div>
-                                    <div>19 files changed <span class="code">++320 --69</span></div>
+                                    <div>43 files changed <span class="code">++18284 --19</span></div>
                                 </div>
                             </section>
                         </div>
