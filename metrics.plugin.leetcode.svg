@@ -70,8 +70,8 @@
                         <div class="label fundamental"><span class="dot">⬤</span> String <span class="count">x13</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Tree <span class="count">x12</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Binary Tree <span class="count">x12</span></div>
+                        <div class="label fundamental"><span class="dot">⬤</span> Sorting <span class="count">x11</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Depth-First Search <span class="count">x10</span></div>
-                        <div class="label fundamental"><span class="dot">⬤</span> Sorting <span class="count">x10</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Bit Manipulation <span class="count">x7</span></div>
                     </div>
                 </section>
